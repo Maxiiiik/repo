@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 				strcat_s(arr, argv[j]);
 			}
 			cout << "str: " << arr << endl;
-			cout << "Number of words: " << spacecounter << endl;
+			cout << "Use -v argument to see version" << endl;
 			return 0;
 		}
 
@@ -34,9 +34,13 @@ int main(int argc, char* argv[])
 				return 0;
 		}
 
+		if (strcmp(argv[i], "-v") == 0)
+		{
+			cout << "git version 2.26.2.windows" <<endl;
+			return 0;
+		}
+
 	}
-
-
 	string str;
 	int numwrds = 0;
 	cout << "Enter the sentence : ";
