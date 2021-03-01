@@ -28,6 +28,7 @@ int main(int argc, char* argv[])
 			return 0;
 		}
 
+
 		if (strcmp(argv[i], "-h") == 0)
 		{
 			cout << "This program WORK" << endl;
@@ -39,6 +40,7 @@ int main(int argc, char* argv[])
 			cout << "git version 2.26.2.windows" <<endl;
 			return 0;
 		}
+
 
 	}
 	string str;
